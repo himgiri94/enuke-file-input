@@ -1,0 +1,8 @@
+<input id="file-upload" 
+type="file" 
+accept=".txt" 
+(change)="fileUpload($event)">
+ <br>
+<span *ngFor = "let data of fileText" >
+    {{ data }} <br/>
+</span>
